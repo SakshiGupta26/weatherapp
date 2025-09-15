@@ -1,0 +1,83 @@
+body{
+    background:#16acb4;
+    font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    display:flex;
+    justify-content:center;
+    height: 100vh;
+    margin:0;
+}
+#weather-container{
+    background: rgba(255,255,255,0.8);
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 8 32px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    padding:20px;
+    box-sizing:border-box;
+}
+/*Weather & Crop Advisor*/
+h2,label.p{
+    color:#0c425f;
+    margin: 8px;
+}
+/*Input Box*/
+input {
+     width:1400px;
+    padding:10px;
+    margin-top:20px;
+     border-radius: 10px;
+    cursor: pointer;
+
+}
+/*Submit Button*/
+button {
+    background: #4684e9db;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width:1410px;  /* Increased width*/
+    font-size: 16px;
+}
+button:hover {
+    background: #135ed6db;
+}
+#temp-div p{
+    font-size: 60px;
+    margin-top:-10px;
+    align-items: center;
+}
+#weather-info{
+    font-size: 20px;};
+#weather-icon{
+    width:200px;
+    height:200px;
+    margin:0 auto 10px;
+   margin-bottom:0;
+   display:none;}
+   #hourly-forecast{
+    margin-top: 50px;
+    flex: 0 0 auto;
+    white-space:nowrap;
+    display:flex;
+    justify-content: space-between;}
+    .hourly-item{
+        flex: 0 0 auto;
+        width:80px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10px;
+        color:white;
+    }
+    .hourly-item img{
+        width:30px;
+        height:30px;
+        margin-top: 10px;}
+    #hourly-heading{
+        color:#fff;
+    }
